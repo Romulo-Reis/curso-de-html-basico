@@ -5,6 +5,7 @@
 
 body{
 	background: url("../img/background-pizza.png") 0 0 no-repeat;
+	background-size: 100% auto;
 	background-color: #131313;
 }
 
