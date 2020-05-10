@@ -3,18 +3,22 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Hello Pizza</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Baloo|Reenie+Beanie|Roboto:400,500,500i">
 	</head>
 	<body>
 		<header>
 			<h1>Hello Pizza</h1>
-			<ul>
-				<li>Home</li>
-				<li><a href="https://www.devmedia.com.br" target="_blank">Sobre</a></li>
-				<li>Contato</li>
-			</ul>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>	
+			</nav>
 		</header>
 		<section>
-			<ul>
+			<ul id="vantagens">
 				<li>Qualidade</li>
 				<li>Sabor</li>
 				<li>Praticidade</li>
@@ -24,7 +28,7 @@
 		<section>
 			<h2>Sabores</h2>
 			<p>Conheça os nossos <strong>5 sabores</strong> de <em>pizza</em>!</p>
-			<img src="img/sabores-pizzas.png" alt="Fotos de Pizzas de vários sabores" />
+			<img id="pizza-sabores" src="img/sabores-pizzas.png" alt="Fotos de Pizzas de vários sabores" />
 			<table border="1">
 				<tr>
 					<th>Sabor</th>
@@ -85,7 +89,8 @@
 			</form>
 		</section>
 		<footer>
-			<p>Hello Pizza</p>
+			<a href="#" id="logo-hellopizza">Hello Pizza</a>
+            <p>Todos os direitos reservados &copy; 2018</p>
 		</footer>
 	</body>
 </html>
